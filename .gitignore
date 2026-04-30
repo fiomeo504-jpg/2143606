@@ -1,12 +1,5 @@
-
----
-
-### Файл 3: `.gitignore`
-
-```gitignore
 # Python
 __pycache__/
-*.py[cod]
 *.pyc
 *.pyo
 *.pyd
@@ -16,22 +9,20 @@ __pycache__/
 *.egg-info/
 dist/
 build/
-*.spec
-
-# Файл с историей задач
-tasks.json
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
+
+# Data files (папка с историей, если хотите исключить)
+# password_history.json
+
+# OS
 .DS_Store
-
-# Windows
 Thumbs.db
-desktop.ini
-
-# Логи
-*.log
+.env
+venv/
+env/
+ENV/
